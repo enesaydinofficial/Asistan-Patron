@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ASISTAN PATRON" verbose="1" >
+    <test name="AsistanPatron - Run Tests">
+        <classes>
+            <class name="Main.GetData"/>
+            <class name="Orders.OrderGetData"/>
+            <class name="Invoices.InvoiceGetData"/>
+            <class name="Approved.ApprovedGetData"/>
+            <class name="NotApproved.NotApprovedGetData"/>
+            <class name="Main.AllMenuOpen"/>
+        </classes>
+    </test>
+</suite>
